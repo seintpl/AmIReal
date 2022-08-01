@@ -30,10 +30,22 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center" style="padding-top: 10px;">
+      <div class="row justify-content-center mt-2">
         <img id="tresult" style="width: 512px; height: 512px;" src="https://www.thispersondoesnotexist.com/image" alt="Downloading photo from thispersondoesnotexist.com..." title="Downloading photo from thispersondoesnotexist.com..." />
-        <div style="position: absolute; text-align: center; max-width: 512px;">
+        <div style="position: absolute; text-align: center; max-width: 512px;" id="pattern">
           <img src="pattern.png" style="width: 100%; height: 512px;" />
+        </div>
+      </div>
+      <div class="row justify-content-center mt-2">
+        <label for="tiltv" class="col-sm-2 col-form-label text-end">Move pattern left/right:</label>
+        <div class="col-sm-2">
+          <input type="range" min="-100" max="100" value="0" class="slider" id="tiltv" style="padding-top: 20px;">
+        </div>
+      </div>
+      <div class="row justify-content-center mt-2">
+        <label for="tilth" class="col-sm-2 col-form-label text-end">Move pattern up/down:</label>
+        <div class="col-sm-2">
+          <input type="range" min="-100" max="100" value="0" class="slider" id="tilth" style="padding-top: 20px;">
         </div>
       </div>
       <div class="mt-5">
