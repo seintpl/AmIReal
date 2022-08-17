@@ -12,3 +12,8 @@ var tiltv = document.getElementById("tilth");
 tiltv.oninput = function() {
   document.getElementById("pattern").style.marginTop = this.value + "px";
 }
+
+var rot = document.getElementById("rot");
+rot.oninput = function() {
+  document.getElementById("pattern").style.transform = "rotate(" + this.value + "deg)";
+}
